@@ -1,0 +1,1 @@
+export const Servicios = () => <div className="container py-5"><h2>Servicios</h2></div>;
