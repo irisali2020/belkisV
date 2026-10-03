@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Layout global
 import { Header } from './components/layout/Header';
-import { Navbar } from './components/layout/Navbar';
+// import  Navbar  from './components/layout/Navbar.jsx';
 // import { Footer } from './components/layout/Footer';
 
 // Páginas de la SPA
@@ -21,7 +21,7 @@ function App() {
       <Header />
     
       {/* Navbar persistente en todas las vistas */}
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Contenedor dinámico según la ruta */}
       <Routes>
