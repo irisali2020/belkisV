@@ -4,9 +4,9 @@ import { StageCard } from './StageCard';
 
 export const CycleStages = () => {
   return (
-    <section id="ciclo-de-vida" className="py-5 bg-light">
-      <div className="container py-4">
-        <div className="text-center mb-5">
+    <section id="ciclo-de-vida" className="py-5 bg-light" >
+      <div className="container py-4" >
+        <div className="text-center mb-5" style={{ border: '1px solid red' }}>
           <h2 className="fw-bold mb-2">Las 4 fases del ciclo grupal</h2>
           <p className="text-muted mx-auto" style={{ maxWidth: '600px' }}>
             Cada momento exige un tipo distinto de escucha, acuerdos y herramientas. 
@@ -14,7 +14,7 @@ export const CycleStages = () => {
           </p>
         </div>
 
-        <div className="row g-4">
+        <div className="row g-4" style={{ border: '1px solid blue' }}>
           {cycleStages.map((stage) => (
             <StageCard key={stage.id} stage={stage} />
           ))}

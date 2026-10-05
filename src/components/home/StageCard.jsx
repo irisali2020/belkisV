@@ -5,7 +5,7 @@ export const StageCard = ({ stage }) => {
   return (
     <div className="col-12 col-md-6 col-lg-3 d-flex">
       <div className="card h-100 border-0 shadow-sm rounded-4 w-100 p-3 position-relative">
-        <div className="card-body d-flex flex-column">
+        <div className="card-body d-flex flex-column" style={{ border: `2px solid ${stage.colorAccent}`, borderRadius: '1rem' }}>
           <div className="d-flex justify-content-between align-items-center mb-3">
             <span 
               className="fw-bold fs-4" 

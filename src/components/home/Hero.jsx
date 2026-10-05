@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const Hero = () => {
   return (
     <section className="hero-section text-center py-5">
-      <div className="container py-4">
+      <div className="container py-4" style={{ border: '1px solid black' }}>
         <span className="badge rounded-pill bg-light text-primary px-3 py-2 mb-3 border">
           Facilitación & Desarrollo Comunitario
         </span>
